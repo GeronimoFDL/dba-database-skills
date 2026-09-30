@@ -1,0 +1,17 @@
+# Research caches and build/verification output
+verification/
+*/verification/
+database-skills/verification/
+ENTREGA.md
+VALIDACION.md
+
+# Locally assembled archives (tracked release plugin zip is explicitly included)
+*.zip
+!dba-database-skills-plugin.zip
+
+# Local/editor files
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.tmp
+*.bak

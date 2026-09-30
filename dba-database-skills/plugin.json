@@ -1,0 +1,45 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "dba-database-skills",
+  "version": "1.0.0",
+  "description": "Five version-aware DBA skills for SQL Server, PostgreSQL, MySQL and MariaDB, covering relational design, SQL, operations and safe change planning.",
+  "author": {
+    "name": "Gustavo"
+  },
+  "homepage": "https://github.com/GeronimoFDL/dba-database-skills",
+  "repository": "https://github.com/GeronimoFDL/dba-database-skills",
+  "license": "MIT",
+  "keywords": [
+    "database administration",
+    "DBA",
+    "SQL Server",
+    "PostgreSQL",
+    "MySQL",
+    "MariaDB",
+    "normalization"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "DBA Database Skills",
+        "shortDescription": "DBA skills for five engines",
+        "longDescription": "A skills-only collection for DBAs and database engineers using SQL Server 2022/2025, PostgreSQL 18, MySQL 9.7 LTS and MariaDB 13.0. The five Spanish-language skills guide relational modeling and normalization through 3NF, version-aware SQL, performance analysis, security, backups, high availability and migration planning. They provide instructions and reference material only: no database connections, credentials, executable operations or production guarantees. Verify engine, build, edition, platform and business rules before relying on a recommendation.",
+        "developerName": "Gustavo",
+        "category": "Developer Tools",
+        "capabilities": [],
+        "composerIcon": "./assets/dba-database-skills.svg",
+        "logo": "./assets/dba-database-skills.svg",
+        "brandColor": "#14532D",
+        "defaultPrompt": [
+          "Use the skill for the exact database engine and version to review this schema through 3NF. State which business rules need confirmation before proposing DDL.",
+          "Diagnose this SQL performance issue for the exact server build. Separate evidence, hypotheses and tests; do not invent measurements.",
+          "Review this database change for transaction, locking, backup, recovery and version-specific risks."
+        ]
+      },
+      "onboardingSkill": "./skills/postgresql-18-engineering/SKILL.md",
+      "publication": {
+        "release_notes": "Initial skills-only package with five version-aware DBA workflows for SQL Server 2022/2025, PostgreSQL 18, MySQL 9.7 LTS and MariaDB 13.0."
+      }
+    }
+  }
+}

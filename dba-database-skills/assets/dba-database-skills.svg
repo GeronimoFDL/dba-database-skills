@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">DBA Database Skills</title>
+  <desc id="desc">Database cylinder with relational node connections</desc>
+  <rect width="256" height="256" rx="48" fill="#14532D"/>
+  <ellipse cx="128" cy="62" rx="70" ry="27" fill="#ECFDF5"/>
+  <path d="M58 62v118c0 15 31 27 70 27s70-12 70-27V62" fill="#BBF7D0"/>
+  <path d="M58 62v118c0 15 31 27 70 27s70-12 70-27V62" fill="none" stroke="#ECFDF5" stroke-width="10"/>
+  <path d="M58 101c0 15 31 27 70 27s70-12 70-27M58 141c0 15 31 27 70 27s70-12 70-27" fill="none" stroke="#14532D" stroke-width="8"/>
+  <circle cx="93" cy="77" r="7" fill="#14532D"/>
+  <circle cx="128" cy="77" r="7" fill="#14532D"/>
+  <circle cx="163" cy="77" r="7" fill="#14532D"/>
+</svg>

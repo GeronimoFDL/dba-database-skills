@@ -1,0 +1,22 @@
+{
+  "name": "dba-database-skills",
+  "version": "1.0.0",
+  "description": "Five version-aware DBA skills for SQL Server, PostgreSQL, MySQL and MariaDB.",
+  "author": { "name": "Gustavo" },
+  "homepage": "https://github.com/GeronimoFDL/dba-database-skills",
+  "repository": "https://github.com/GeronimoFDL/dba-database-skills",
+  "license": "MIT",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "DBA Database Skills",
+    "shortDescription": "DBA skills for five engines",
+    "longDescription": "Five Spanish-language DBA skills for SQL Server 2022/2025, PostgreSQL 18, MySQL 9.7 LTS and MariaDB 13.0. Guidance covers relational modeling, normalization through 3NF, SQL, performance, security, backup and recovery, high availability and migrations. No database access, credentials or production guarantees.",
+    "developerName": "Gustavo",
+    "category": "Developer Tools",
+    "capabilities": [],
+    "composerIcon": "./assets/dba-database-skills.svg",
+    "logo": "./assets/dba-database-skills.svg",
+    "brandColor": "#14532D",
+    "defaultPrompt": "Choose the skill that matches my database engine and exact version, then review this schema or SQL. Identify unknown business rules instead of assuming them."
+  }
+}
